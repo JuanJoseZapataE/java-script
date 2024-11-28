@@ -134,7 +134,7 @@ function imprimirarreglos(){
         fila.appendChild(td5)
         fila.appendChild(td6)
 
-        cuerpotabla.appendChild(fila)
     }
 
+        cuerpotabla.appendChild(fila)
 }
