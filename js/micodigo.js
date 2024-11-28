@@ -110,6 +110,7 @@ btagregar.addEventListener("click", () => {
 
 function imprimirarreglos(){
     const cuerpotabla = document.getElementById("datos")
+    cuerpotabla.innerHTML = "" // limpiar la tabla antes de ingresar datos nuevos
 
     for(let i = 0; i < nombres.length; i++){
         const fila = document.createElement("tr")
@@ -134,7 +135,9 @@ function imprimirarreglos(){
         fila.appendChild(td5)
         fila.appendChild(td6)
 
-    }
-
         cuerpotabla.appendChild(fila)
+
+    }
+    
+    
 }
